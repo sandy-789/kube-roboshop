@@ -8,8 +8,8 @@ db.users.insertMany([
     {name: 'partner-57', password: 'worktogether', email: 'howdy@partner.com'}
 ]);
 
-// unique index on the name
-db.users.createIndex(
-    {name: 1},
-    {unique: true}
-);
+// // unique index on the name
+// db.users.createIndex(
+//     {name: 1},
+//     {unique: true}
+// );
